@@ -1,0 +1,19 @@
+#To print prime and nonprime numbers
+
+length=int(input("Enter the length:"))
+nonprime=[]
+prime=[]
+print("Enter the Numbers:")
+for i in range(length):
+    num=int(input())
+    if(num>1):
+        for j in range(2,num):
+            if(num%j==0):
+                prime.append(num)
+            else:
+                nonprime.append(num)
+    else:
+        nonprime.append(num)
+print("prime numbers",prime)
+print("nonprime numbers",nonprime)
+   
