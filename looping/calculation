@@ -1,0 +1,14 @@
+num1=int(input("enter the number1:"))
+num2=int(input("enter the number2:"))
+operator=input("enter the choice:")
+if(operator=='+'):
+    print(num1,"+",num2,"=",num1+num2)
+elif(operator=='-'):
+    print(num1,"-",num2,"=",num1-num2)
+elif(operator=='*'):
+    print(num1,"*",num2,"=",num1*num2)
+elif(operator=='/'):
+    print(num1,"/",num2,"=",num1/num2)
+elif(operator=='exp'):
+    print(num1,"exp",num2,"=",num1**num2)
+    
