@@ -1,0 +1,21 @@
+#wite a program to print even odd sum of even and sum of odd numbers
+
+al=[]
+odd=[]
+even=[]
+len=int(input("enter the number:"))
+sume=0
+sumo=0
+for i in range(0,len):
+    a=int(input("enter:"))
+    if((a%2)==0):
+        even.append(a)
+        sume=sume+a
+    else:
+        odd.append(a)
+        sumo=sumo+a
+print("all number is:",al)
+print("even number is:",even)
+print("odd number is:",odd)
+print("sume in the list:",sume)
+print("sumo in the list:",sumo)
