@@ -10,8 +10,8 @@ for i in range(length):
         for j in range(2,num):
             if(num%j==0):
                 prime.append(num)
-            else:
-                nonprime.append(num)
+        else:
+            nonprime.append(num)
     else:
         nonprime.append(num)
 print("prime numbers",prime)
