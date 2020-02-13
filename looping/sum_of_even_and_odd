@@ -8,6 +8,7 @@ sume=0
 sumo=0
 for i in range(0,len):
     a=int(input("enter:"))
+    al.append(a)
     if((a%2)==0):
         even.append(a)
         sume=sume+a
